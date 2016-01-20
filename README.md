@@ -6,9 +6,9 @@ See Call for paper: XXX
 
 We provide four variants of the task across various registers. Each variant is split into three parts:
 
-- **Development set:** We encourage to perform the explanatory analysis, task definition, annotation experiments, etc. on this set.
+- **Development set:** We encourage your to perform the exploratory analysis, task definition, annotation experiments, etc. on this set.
 - **Test set:** This small set might serve as a benchmark for testing your annotation model (or even a computer model, if you go that far) and reporting agreement measures (if applicable).
-- **Crowdsourcing set:** a bit larger set if you plan any crowdsourcing experiments (the Test set is a part of the Crowdsourcing set)
+- **Crowdsourcing set:** a bit larger set if you plan any crowdsourcing experiments
 
 Note that these various splits are only a recommendation and not obligatory, you are absolutely free to use the entire dataset if your task requires so.
 
