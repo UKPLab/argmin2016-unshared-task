@@ -3,8 +3,8 @@ Ac002   http://www.createdebate.com/debate/show/Should_America_ban_the_death_pen
 Ac003   http://www.createdebate.com/debate/show/Is_the_school_uniform_a_good_or_bad_idea
 Ac004   http://www.createdebate.com/debate/show/should_abortion_be_banned
 Ac005   http://www.createdebate.com/debate/show/Debate_Org_1_is_on_balance_a_better_Debating_medium_than_Createdebate_com_2
-Ac006   XXX http://www.createdebate.com/debate/show/Does_the_fetus_have_rights
-Ac007   XXX http://www.createdebate.com/debate/show/Should_National_Service_be_mandatory_for_all_male_singaporeans
+Ac006   http://www.createdebate.com/debate/show/Does_the_fetus_have_rights
+Ac007   http://www.createdebate.com/debate/show/Should_National_Service_be_mandatory_for_all_male_singaporeans
 Ac008   XXX http://www.createdebate.com/debate/show/Is_a_government_absent_of_corruption_possible
 Ac009   XXX http://www.createdebate.com/debate/show/Atheists_should_not_be_permitted_to_spread_their_beliefs
 Ac010   XXX http://www.createdebate.com/debate/show/S2_07_Social_Media_has_Made_Us_Less_Social_Do_you_agree_3
