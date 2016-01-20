@@ -17,22 +17,22 @@ Note that these various splits are only a recommendation and not obligatory, you
 - Variant A: Debate portals
   - 8 devel files
   - 2 test files
-  - 18+2 crowdsourcing files
+  - 18 crowdsourcing files
 
 - Variant B: Debate transcript
   - 3 devel files
   - 2 test files
-  - 5+2 crowdsourcing files
+  - 5 crowdsourcing files
 
 - Variant C: Opinionated newswire article
   - 8 devel files
   - 2 test files
-  - 18+2 crowdsourcing files
+  - 18 crowdsourcing files
 
 - Variant D: Discussion under opinionated articles
   - 8 devel files
   - 2 test files
-  - 18+2 crowdsourcing files
+  - 18 crowdsourcing files
   
 ## Data
 

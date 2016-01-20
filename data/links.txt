@@ -1,0 +1,28 @@
+Ac001   http://www.createdebate.com/debate/show/Should_we_kick_illegal_immigrants_out_of_the_USA
+Ac002   http://www.createdebate.com/debate/show/Should_America_ban_the_death_penalty
+Ac003   http://www.createdebate.com/debate/show/Is_the_school_uniform_a_good_or_bad_idea
+Ac004   http://www.createdebate.com/debate/show/should_abortion_be_banned
+Ac005   XXX http://www.createdebate.com/debate/show/Homework_should_be_banned_3
+Ac006
+Ac007
+Ac008
+Ac009
+Ac010
+Ac011
+Ac012
+Ac013
+Ac014
+Ac015
+Ac016
+Ac017
+Ac018
+Ad001   http://www.createdebate.com/debate/show/Is_immigration_good_for_the_UK
+Ad002   http://www.createdebate.com/debate/show/Should_the_age_for_smoking_and_drinking_be_lowered_down
+Ad003   http://www.createdebate.com/debate/show/Should_the_minimum_wage_be_abolished
+Ad004   http://www.createdebate.com/debate/show/Should_animals_be_used_for_scientific_experimentation
+Ad005   http://www.createdebate.com/debate/show/Is_forcing_your_child_to_be_a_certain_religion_a_form_of_child_abuse
+Ad006   http://www.createdebate.com/debate/show/Occupy_Wallstreet_could_this_be_the_start_of_a_major_revolution_in_america
+Ad007   http://www.createdebate.com/debate/show/Should_students_be_allowed_to_choose_to_be_taught_creationism
+Ad008   http://www.createdebate.com/debate/show/Is_it_wrong_for_employers_to_stalk_potential_employee_s_internet_personas
+At001   http://www.createdebate.com/debate/show/Should_Marijuana_be_Legal_27
+At002   http://www.createdebate.com/debate/show/Is_Gay_Marriage_a_Civil_Right
