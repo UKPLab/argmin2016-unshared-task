@@ -33,3 +33,4 @@ http://www.createdebate.com/debate/show/Should_a_father_have_a_right_to_refuse_a
 )
 Bd001   http://intelligencesquaredus.org/images/debates/past/transcripts/040313%20minimum%20wage.pdf
 Bd002   http://intelligencesquaredus.org/images/debates/past/transcripts/021313%20genetic%20engineering.pdf
+Bd003   http://intelligencesquaredus.org/images/debates/past/transcripts/internet-politics.pdf
