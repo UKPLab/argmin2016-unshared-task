@@ -31,3 +31,8 @@ Bd002   http://intelligencesquaredus.org/images/debates/past/transcripts/021313%
 Bd003   http://intelligencesquaredus.org/images/debates/past/transcripts/internet-politics.pdf
 Bt001   http://intelligencesquaredus.org/images/debates/past/transcripts/111412%20drugs.pdf
 Bt002   http://intelligencesquaredus.org/images/debates/past/transcripts/organic-food.pdf
+Bc001   http://intelligencesquaredus.org/images/debates/past/transcripts/sex-debate.pdf
+Bc002   XXX http://intelligencesquaredus.org/images/debates/past/transcripts/ArtMarketLessEthical-020309.pdf
+Bc003   XXX http://intelligencesquaredus.org/images/debates/past/transcripts/Guns-Reduce-Crime-102808.pdf
+Bc004   XXX http://intelligencesquaredus.org/images/debates/past/transcripts/OrganMarkets-051308.pdf
+Bc005   XXX http://intelligencesquaredus.org/images/debates/past/transcripts/PerformanceEnhancingDrugs-011508.pdf
