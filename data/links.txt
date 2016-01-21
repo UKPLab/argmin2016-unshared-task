@@ -26,11 +26,8 @@ Ad007   http://www.createdebate.com/debate/show/Should_students_be_allowed_to_ch
 Ad008   http://www.createdebate.com/debate/show/Is_it_wrong_for_employers_to_stalk_potential_employee_s_internet_personas
 At001   http://www.createdebate.com/debate/show/Should_Marijuana_be_Legal_27
 At002   http://www.createdebate.com/debate/show/Is_Gay_Marriage_a_Civil_Right
-(other debates:
-http://www.createdebate.com/debate/show/Are_high_taxes_theft
-http://www.createdebate.com/debate/show/Should_physical_education_be_mandatory_in_schools
-http://www.createdebate.com/debate/show/Should_a_father_have_a_right_to_refuse_an_abortion
-)
 Bd001   http://intelligencesquaredus.org/images/debates/past/transcripts/040313%20minimum%20wage.pdf
 Bd002   http://intelligencesquaredus.org/images/debates/past/transcripts/021313%20genetic%20engineering.pdf
 Bd003   http://intelligencesquaredus.org/images/debates/past/transcripts/internet-politics.pdf
+Bt001   http://intelligencesquaredus.org/images/debates/past/transcripts/111412%20drugs.pdf
+Bt002   http://intelligencesquaredus.org/images/debates/past/transcripts/organic-food.pdf
