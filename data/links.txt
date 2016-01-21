@@ -9,10 +9,10 @@ Ac008   http://www.createdebate.com/debate/show/Is_a_government_absent_of_corrup
 Ac009   http://www.createdebate.com/debate/show/Atheists_should_not_be_permitted_to_spread_their_beliefs
 Ac010   http://www.createdebate.com/debate/show/S2_07_Social_Media_has_Made_Us_Less_Social_Do_you_agree_3
 Ac011   http://www.createdebate.com/debate/show/Do_You_Think_That_Nudism_Should_Be_Accepted_In_Public
-Ac012   XXX http://www.createdebate.com/debate/show/Outsourcing_of_US_jobs_to_foreign_countries:_Bad_or_Good
-Ac013   XXX http://www.createdebate.com/debate/show/Should_contraception_be_covered_by_health_insurance
-Ac014   XXX http://www.createdebate.com/debate/show/Should_under_god_be_removed_from_the_pledge
-Ac015   XXX http://www.createdebate.com/debate/show/Should_the_U_S_completely_ignore_the_Syria_situation
+Ac012   http://www.createdebate.com/debate/show/Outsourcing_of_US_jobs_to_foreign_countries:_Bad_or_Good
+Ac013   http://www.createdebate.com/debate/show/Should_contraception_be_covered_by_health_insurance
+Ac014   http://www.createdebate.com/debate/show/Should_under_god_be_removed_from_the_pledge
+Ac015   http://www.createdebate.com/debate/show/Should_the_U_S_completely_ignore_the_Syria_situation
 Ac016   XXX http://www.createdebate.com/debate/show/Should_a_parent_who_plans_on_spanking_their_child_be_allowed_to_have_foster_children
 Ac017   XXX http://www.createdebate.com/debate/show/Non_vegan_foods_should_be_banned_worldwide
 Ac018   XXX http://www.createdebate.com/debate/show/Junk_food_should_be_banned_from_public_schools
