@@ -20,6 +20,8 @@ Note that these various splits are only a recommendation and not obligatory, you
   - 18 crowdsourcing files
 
 - Variant B: Debate transcript
+  - Opening and closing speech of the same speaker from Intelligence^2 debates
+    - The entire debate transcripts would be extremely long for the purposes of the unshared task
   - 3 devel files
   - 2 test files
   - 5 crowdsourcing files
