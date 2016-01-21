@@ -13,9 +13,9 @@ Ac012   http://www.createdebate.com/debate/show/Outsourcing_of_US_jobs_to_foreig
 Ac013   http://www.createdebate.com/debate/show/Should_contraception_be_covered_by_health_insurance
 Ac014   http://www.createdebate.com/debate/show/Should_under_god_be_removed_from_the_pledge
 Ac015   http://www.createdebate.com/debate/show/Should_the_U_S_completely_ignore_the_Syria_situation
-Ac016   XXX http://www.createdebate.com/debate/show/Should_a_parent_who_plans_on_spanking_their_child_be_allowed_to_have_foster_children
-Ac017   XXX http://www.createdebate.com/debate/show/Non_vegan_foods_should_be_banned_worldwide
-Ac018   XXX http://www.createdebate.com/debate/show/Junk_food_should_be_banned_from_public_schools
+Ac016   http://www.createdebate.com/debate/show/Should_a_parent_who_plans_on_spanking_their_child_be_allowed_to_have_foster_children
+Ac017   http://www.createdebate.com/debate/show/Non_vegan_foods_should_be_banned_worldwide
+Ac018   http://www.createdebate.com/debate/show/Junk_food_should_be_banned_from_public_schools
 Ad001   http://www.createdebate.com/debate/show/Is_immigration_good_for_the_UK
 Ad002   http://www.createdebate.com/debate/show/Should_the_age_for_smoking_and_drinking_be_lowered_down
 Ad003   http://www.createdebate.com/debate/show/Should_the_minimum_wage_be_abolished
