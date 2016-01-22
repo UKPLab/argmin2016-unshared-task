@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package de.tudarmstadt.ukp.argumentation;
+package de.tudarmstadt.ukp.argumentation.cleaning;
 
 /**
  * Methods for "cleaning" text from the Web, such as removing non-standard whitespaces, non-latin
@@ -56,7 +56,16 @@ public class TextCleaningUtils
             + "\\u205F" // MEDIUM MATHEMATICAL SPACE
             + "\\u3000";
 
-    private static final String WHITESPACE_CHAR_CLASS = "[" + WHITESPACE_CHARS + "]";
+    private static final String WHITESPACE_CHAR_CLASS = "[" + WHITESPACE_CHARS + "]";// figure dash
+    // en dash
+    // em dash
+    // horizontal bar
+    // swung dash
+    private static final String DASH_CHARS = "" + "\\u2012" // figure dash
+            + "\\u2013" // en dash
+            + "\\u2014" // em dash
+            + "\\u2015" // horizontal bar
+            + "\\u2053";
 
     /**
      * Replaces all sorts of "weird" unicode whitespaces by a normal whitespace, removes unicode
@@ -85,13 +94,7 @@ public class TextCleaningUtils
         String result = normalizeWhitespaceAndRemoveUnicodeControlChars(text);
 
         // dashes
-        String dashChars = "" + "\\u2012" // figure dash
-                + "\\u2013" // en dash
-                + "\\u2014" // em dash
-                + "\\u2015" // horizontal bar
-                + "\\u2053" // swung dash
-                ;
-        result = result.replaceAll("[" + dashChars + "]+", "-");
+        result = result.replaceAll("[" + DASH_CHARS + "]+", "-");
 
         // elipsis
         result = result.replaceAll("\\u2026", "...");
@@ -105,5 +108,23 @@ public class TextCleaningUtils
                 "[[^\\p{InBasic_Latin}\\p{InLatin_1_Supplement}][\\u00A0-\\u00BF]]", " ");
 
         return result.trim();
+    }
+
+    /**
+     * Normalizes the text and removes empty lines between paragraphs
+     * See {@link #normalize(String)}
+     *
+     * @param text text
+     * @return text
+     */
+    public static String normalizeWithParagraphs(String text)
+    {
+        String result = text.replaceAll("\\n+", "\n");
+
+        // trim the lines
+        result = result.replaceAll("\\n" + WHITESPACE_CHAR_CLASS + "+", "\n");
+        result = result.replaceAll(WHITESPACE_CHAR_CLASS + "+\\n", "\n");
+
+        return normalize(result);
     }
 }

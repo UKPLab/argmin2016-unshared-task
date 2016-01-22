@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package de.tudarmstadt.ukp.argumentation;
+package de.tudarmstadt.ukp.argumentation.cleaning;
 
 import org.apache.commons.io.FileUtils;
 

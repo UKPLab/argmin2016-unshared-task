@@ -29,12 +29,12 @@ Note that these various splits are only a recommendation and not obligatory, you
 - Variant C: Opinionated newswire article
   - 8 devel files
   - 2 test files
-  - 18 crowdsourcing files
+  - 12 crowdsourcing files
 
 - Variant D: Discussion under opinionated articles
   - 8 devel files
   - 2 test files
-  - 18 crowdsourcing files
+  - 12 crowdsourcing files
   
 ## Data
 
