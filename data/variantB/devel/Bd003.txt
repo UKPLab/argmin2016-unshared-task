@@ -65,39 +65,39 @@ in particular we have to tease apart what's possible to access versus what
 people do access. For example, now that the -- it's easy now to access the
 front page of Le Monde or Die Zeit, as it is, in fact to access the New York
 Times. So you would think, given this vast increase in accessibility of foreign
-policy, information, of what’s going on in other countries, that people would
-know more about what’s going on there. In fact that’s not true. According
+policy, information, of what's going on in other countries, that people would
+know more about what's going on there. In fact that's not true. According
 to a Pew study from 2007, people actually were more informed on foreign policy
 matters before the internet than in 2007. So when Jacob says you can find more
-sources than ever, it’s kind of beside the point. What’s relevant is that
+sources than ever, it's kind of beside the point. What's relevant is that
 people come into daily contact more frequently, is whether people come into
 daily contact with more different sources and more particular, different
 ideological ones. I agree here again with Evgeny who says the regular folk
-don’t read sites like Global Voices, an aggregator of the most interesting
+don't read sites like Global Voices, an aggregator of the most interesting
 blog posts from all over the world. Instead they are more likely to use the
 internet to rediscover their own culture and dare we say it, their own national
 bigotry. So to summarize, big companies are rapidly working to personalize your
-version of the web. They want to show you what they think you’re going to be
-interested in. And this isn't passive. This isn’t me turning on Fox News or
+version of the web. They want to show you what they think you're going to be
+interested in. And this isn't passive. This isn't me turning on Fox News or
 me turning on -- or picking up a copy of the Nation. This is embedded in an
 increasing number of websites. Yahoo News in 2007, was a gateway for 80 million
 people that looked the same. But now, Yahoo runs 13 million different
-variations of Yahoo News front page every day. And they’re different for each
-person. It’s hard to even see. We don’t know how tailored our view of the
+variations of Yahoo News front page every day. And they're different for each
+person. It's hard to even see. We don't know how tailored our view of the
 web is because you have to sit down next to someone else and look at the
 differences. So the object of this personalization is to get us to click more.
-It’s to get us to like more. And importantly, it’s to get us to click on
-ads. And there’s little benefit in that world to presenting us with
+It's to get us to like more. And importantly, it's to get us to click on
+ads. And there's little benefit in that world to presenting us with
 information that makes us uncomfortable, that challenges our views, or that
-makes us think differently. I don’t think that this has caused the extreme
-political polarization that we’re seeing right now. But I think it can’t
-help but exacerbate it. Google says that it’s trying to provide relevance.
-But what is the most relevant search result when you’re a 9/11 conspiracy
-theorist googling 9/11? Is it the conspiracy links that Google’s algorithm
+makes us think differently. I don't think that this has caused the extreme
+political polarization that we're seeing right now. But I think it can't
+help but exacerbate it. Google says that it's trying to provide relevance.
+But what is the most relevant search result when you're a 9/11 conspiracy
+theorist googling 9/11? Is it the conspiracy links that Google's algorithm
 would tend to promote or is it the Popular Mechanics article that would debunk
-that stuff? I asked Google this question and they didn’t really have a clear
-answer. So it’s with regret that I think the Internet is not living up to its
-potential. The way that most people actually use the thing isn’t to broaden
+that stuff? I asked Google this question and they didn't really have a clear
+answer. So it's with regret that I think the Internet is not living up to its
+potential. The way that most people actually use the thing isn't to broaden
 their political perspectives. In fact the path that we generally travel on
 online will tend to mirror our political views. Thank you.
 
@@ -107,20 +107,20 @@ So I want to read you a quote from two Stanford researchers from 1997. They
 said, "We expect that advertising funded search engines will be inherently
 biased towards the advertisers and away from the needs of the consumers. We
 believe that the issue of advertising causes enough mixed incentives that
-it’s crucial to have a competitive search engine that is transparent and in
+it's crucial to have a competitive search engine that is transparent and in
 the academic realm." Now, the two researchers were Sergey Brin and Larry Page,
 and this was just months before they launched Google as a for-profit entity. I
 think that version of them was right. I think that the companies that
 increasingly control where and how we put information online have mixed
 motives. And the motives that they use in creating these filters may not be,
-and in fact aren’t in our best interests. They’re more likely to surround
-us with voices that tell us that we’re great and we’re right and we’re
-good enough and strong enough. And they’re less likely to confront us with
-the places where we’re wrong. What’s been interesting for me since writing
-the book is that I’ve actually been invited to come talk with engineers at
-all of these companies, Amazon, Apple, Google, YouTube, and Facebook. I’ve
-had conversations with people in each of those places. And it’s sort of funny
-for me to hear people try to suggest that it isn’t a big part of what these
+and in fact aren't in our best interests. They're more likely to surround
+us with voices that tell us that we're great and we're right and we're
+good enough and strong enough. And they're less likely to confront us with
+the places where we're wrong. What's been interesting for me since writing
+the book is that I've actually been invited to come talk with engineers at
+all of these companies, Amazon, Apple, Google, YouTube, and Facebook. I've
+had conversations with people in each of those places. And it's sort of funny
+for me to hear people try to suggest that it isn't a big part of what these
 companies are trying to do. The engineers know that it is. They wrestle with it
 every day. They wrestle with the mixed motives, with these questions of how
 they should be building these platforms. And they know as one Netflix vice
@@ -183,23 +183,23 @@ Facebook. It has 800 million users. Some of them are heavy users, they have
 5,000 friends and spend hours on it every day. Others open it every few weeks
 and only have a few dozen friends. So Facebook has built this very
 collaborative differentiation. If you are a heavy user, it presents you all
-updates from your friends in the chronological order. That’s the most recent
+updates from your friends in the chronological order. That's the most recent
 updates from all your friends come first. However, if you only use it
 occasionally, they will show you only the most interesting updates. The
 assumption there is that if you have been away for three weeks and you only
 have 30 minutes to catch up, why go through thousands of messages in
 chronological order? To Facebook and to me, this seems like a reasonable
-assumption. That’s why relevance rather than recency is the default filter
+assumption. That's why relevance rather than recency is the default filter
 for the occasional users. If you want to see all the recent messages, all you
 have to do, as Jacob said, is just click a button called most recent. Sure we
 can have a broad philosophical debate on whether social networking is good or
 evil, but as long as we accept that social networking is a legitimate activity,
-we should also accept that filters make it better. Now let’s tackle the
-elephant in the room, which is Google. Suppose I’m so keen on conspiracy
-theories that my blackboard is larger than Glenn Beck’s. So I believe that
+we should also accept that filters make it better. Now let's tackle the
+elephant in the room, which is Google. Suppose I'm so keen on conspiracy
+theories that my blackboard is larger than Glenn Beck's. So I believe that
 9/11 was an inside job. I believe that Obama is a Kenya-born Muslim, that
 climate change is a non-issue manufactured by the lamestream media, that the
-government is hiding the truth about the UFOs and so on. In other words, I’m
+government is hiding the truth about the UFOs and so on. In other words, I'm
 exactly the kind of guy that Eli is worried about. Furthermore, suppose that I
 became all of that before the filter bubble set in. In the great age of
 unfiltered viewpoints that we used to call the era of cable television. So now
@@ -210,29 +210,29 @@ my friends use Google, they see the links that I visited and I liked as well.
 Now this is the new mutual exposure, why is it a good thing? Well if you think
 that all my friends are nut cases like me, then we do have a problem, because
 [unintelligible] exposure all of us may end up becoming even more paranoid. But
-let’s leave Charlie Manson and the Unibomber aside for a moment. I don’t
-think they’re representative of most internet users and their friends. The
+let's leave Charlie Manson and the Unibomber aside for a moment. I don't
+think they're representative of most internet users and their friends. The
 way Google and Facebook map out our social connections, they try to be very
 comprehensive. We see links from people we went to school with, our colleagues,
-our relatives, and so forth. It’s quite likely that many of these people will
-have radically different positions on 9/11, climate change, Obama’s
+our relatives, and so forth. It's quite likely that many of these people will
+have radically different positions on 9/11, climate change, Obama's
 birthplace, and UFOs. So my point is this, that a link to the report of 9/11
 commission that has been endorsed by someone from my social circle, is more
 trustworthy than a generic Google link that has not passed through a similar
-social filter. In other words, it’s a possibility that people would now be
+social filter. In other words, it's a possibility that people would now be
 paying more attention or at least more respect to positions they would
 otherwise find crazy and conspiratorial, only because their friends are known
 to endorse those positions. So, to conclude, there are many good concerns about
 the future of the Internet. That of privacy ranks very high on my personal
-list, but the filter bubble is not one of them. It’s okay to hate Google and
+list, but the filter bubble is not one of them. It's okay to hate Google and
 Facebook, but we should hate them for the right reasons. Thank you.
 
 == Closing speech
 
 Well I wish that Don Draper had a chance to respond to that 1997 paper from
 Google. Again, you may think that advertising is evil, but again, advertising
-is the kind of evil that’s also inevitable. So Eli has mostly avoided the
-what’s to be done question. In his book, he actually is much more I think
+is the kind of evil that's also inevitable. So Eli has mostly avoided the
+what's to be done question. In his book, he actually is much more I think
 straightforward. And he does want Google and Facebook to intervene and to
 expose us to more diverse information. More diverse information diet even, that
 you are normally up for. This second attempt is an utopian dream that is not
@@ -242,14 +242,14 @@ information about our local city council? Okay, but then why pay more attention
 to Joseph Kony and say not climate change, or Syria? Who will adjudicate here?
 Do we really think that Silicon Valley is capable of this? Do we really think
 Silicon Valley should be in this business? Again, you have to think about the
-proposed solution. Often they’re worse than the cure. Don’t forget, that in
+proposed solution. Often they're worse than the cure. Don't forget, that in
 1995, in that article in The Nation, Andrew Shapiro proposed that the
 government should re-nationalize the internet, to bring it back to avoid all
-that advertising evil that you’ve just alluded to. Cass Sunstein in his book,
+that advertising evil that you've just alluded to. Cass Sunstein in his book,
 wanted to force, by government, bloggers to link to their ideological
 opponents. He wanted them, conservatives to link to liberals, and liberals to
 link to conservatives. All of those ideas now seem very ridiculous. And
-that’s what I think we will think about the idea that Google and Facebook
+that's what I think we will think about the idea that Google and Facebook
 should be in the business of actually preserving us and presenting us with a
 more diverse information diet. Information is not like food. Politics is not
 like food. Diversity here is a very political matter that will not be settled
