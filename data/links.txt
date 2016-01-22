@@ -34,5 +34,5 @@ Bt002   http://intelligencesquaredus.org/images/debates/past/transcripts/organic
 Bc001   http://intelligencesquaredus.org/images/debates/past/transcripts/sex-debate.pdf
 Bc002   http://intelligencesquaredus.org/images/debates/past/transcripts/ArtMarketLessEthical-020309.pdf
 Bc003   http://intelligencesquaredus.org/images/debates/past/transcripts/Guns-Reduce-Crime-102808.pdf
-Bc004   XXX http://intelligencesquaredus.org/images/debates/past/transcripts/OrganMarkets-051308.pdf
-Bc005   XXX http://intelligencesquaredus.org/images/debates/past/transcripts/PerformanceEnhancingDrugs-011508.pdf
+Bc004   http://intelligencesquaredus.org/images/debates/past/transcripts/OrganMarkets-051308.pdf
+Bc005   http://intelligencesquaredus.org/images/debates/past/transcripts/PerformanceEnhancingDrugs-011508.pdf
