@@ -25,9 +25,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.IOException;
@@ -61,6 +59,8 @@ public class NYTimesCommentsScraper
         driver.get(articleUrl);
 
         // roll-out the entire discussion
+        // TODO fix that, is broken in actual versions of Selenium/Firefox
+        /*
         List<WebElement> commentsExpandElements;
         do {
             commentsExpandElements = driver.findElements(By.cssSelector("div.comments-expand"));
@@ -78,6 +78,7 @@ public class NYTimesCommentsScraper
         }
         // until there is one remaining that doesn't do anything...
         while (commentsExpandElements.size() > 1);
+        */
 
         // get the html
         String result = driver.getPageSource();

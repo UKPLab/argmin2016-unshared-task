@@ -33,6 +33,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.NoSuchElementException;
 
 /**
  * @author Ivan Habernal
@@ -56,7 +57,13 @@ public class NYTimesArticleExtractor
 
         Document doc = Jsoup.parse(html, getBaseName());
 
-        Element element = doc.select("article.rfd").iterator().next();
+        Element element;
+        try {
+            element = doc.select("article.rfd").iterator().next();
+        }
+        catch (NoSuchElementException exception) {
+            throw new IOException("Cannot find article.rfd element");
+        }
 
         //		System.out.println(element);
 
