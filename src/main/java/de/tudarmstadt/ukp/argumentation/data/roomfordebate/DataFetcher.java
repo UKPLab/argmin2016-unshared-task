@@ -35,7 +35,7 @@ import java.util.*;
  *
  * @author Ivan Habernal
  */
-public class DataPreparator
+public class DataFetcher
 {
 
     private static final int FIRST_N_COMMENTS = 8;
@@ -87,7 +87,7 @@ public class DataPreparator
         // read links from text file
         final String urlsResourceName = "roomfordebate-urls.txt";
 
-        InputStream urlsStream = DataPreparator.class.getClassLoader()
+        InputStream urlsStream = DataFetcher.class.getClassLoader()
                 .getResourceAsStream(urlsResourceName);
 
         if (urlsStream == null) {
