@@ -28,17 +28,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 /**
  * Main class for scraping data from Room for Debate
  *
  * @author Ivan Habernal
  */
-public class NYTimesScraper
+public class DataPreparator
 {
+
+    private static final int FIRST_N_COMMENTS = 8;
 
     /**
      * Crawls all URLs from the given list and stores them in the output folder; files that
@@ -87,7 +87,7 @@ public class NYTimesScraper
         // read links from text file
         final String urlsResourceName = "roomfordebate-urls.txt";
 
-        InputStream urlsStream = NYTimesScraper.class.getClassLoader()
+        InputStream urlsStream = DataPreparator.class.getClassLoader()
                 .getResourceAsStream(urlsResourceName);
 
         if (urlsStream == null) {
@@ -108,39 +108,91 @@ public class NYTimesScraper
         // download all
         crawlPages(urls, crawledPagesFolder);
 
-        Collection<File> files = FileUtils.listFiles(crawledPagesFolder, null, false);
+        List<File> files = new ArrayList<>(FileUtils.listFiles(crawledPagesFolder, null, false));
+        Collections.sort(files, new Comparator<File>()
+        {
+            @Override public int compare(File o1, File o2)
+            {
+                return o1.getName().compareTo(o2.getName());
+            }
+        });
 
-        System.out.println(files);
 
         int idCounter = 0;
 
         for (File file : files) {
-            //            extractDocumentAndComments(file, new File(outputFolder));
             NYTimesCommentsScraper commentsScraper = new NYTimesCommentsScraper();
             NYTimesArticleExtractor extractor = new NYTimesArticleExtractor();
 
             String html = FileUtils.readFileToString(file, "utf-8");
 
-
-            //            System.out.println(comments);
-
             idCounter++;
-            File outputFile = new File(outputFolder, String.format("Cx%03d.txt", idCounter));
+            File outputFileArticle = new File(outputFolder, String.format("Cx%03d.txt", idCounter));
+            File outputFileComments = new File(outputFolder,
+                    String.format("Dx%03d.txt", idCounter));
 
             try {
                 List<Comment> comments = commentsScraper.extractComments(html);
                 Article article = extractor.extractArticle(html);
 
-                saveArticleToText(article, outputFile);
-                System.out.println("Saved to " + outputFile);
+                saveArticleToText(article, outputFileArticle);
+                System.out.println("Saved to " + outputFileArticle);
+
+                saveCommentsToText(comments, outputFileComments, article);
+                System.out.println("Saved to " + outputFileComments);
             }
             catch (IOException ex) {
                 System.err.println(file.getName() + "\n" + ex.getMessage());
             }
-
         }
     }
 
+    /**
+     * Saves first N comments of a given article to a text file
+     *
+     * @param comments   comments
+     * @param outputFile output file
+     * @param article    corresponding article
+     * @throws IOException exception
+     */
+    private static void saveCommentsToText(List<Comment> comments, File outputFile, Article article)
+            throws IOException
+    {
+        PrintWriter pw = new PrintWriter(outputFile, "utf-8");
+
+        // take first 10 comments
+        List<Comment> firstTen = comments.subList(0, comments.size() > FIRST_N_COMMENTS ?
+                FIRST_N_COMMENTS : comments.size());
+
+        // collect IDs for mapping to 1-10
+        List<String> ids = new ArrayList<>();
+        for (Comment comment : firstTen) {
+            ids.add(comment.getId());
+        }
+
+        // header
+        pw.printf("Debate title: %s%n%nDebate description: %s%n%nArticle title: %s%n%n",
+                article.getDebateTitle(), article.getDebateDescription(), article.getTitle());
+
+        for (Comment comment : firstTen) {
+            pw.printf("#%s %s%s%n%n%s%n%n%n",
+                    ids.indexOf(comment.getId()) + 1,
+                    comment.getCommenterName().replaceAll("\\s+", "_"),
+                    comment.getParentId() != null ?
+                            " ReactsTo #" + (ids.indexOf(comment.getParentId()) + 1) : "",
+                    StringUtils.join(comment.getText().split("\n"), "\n\n"));
+        }
+
+        IOUtils.closeQuietly(pw);
+    }
+
+    /**
+     * Saves article to the output file
+     *
+     * @param article    article
+     * @param outputFile file
+     * @throws IOException exception
+     */
     public static void saveArticleToText(Article article, File outputFile)
             throws IOException
     {
