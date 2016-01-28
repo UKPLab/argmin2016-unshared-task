@@ -1,8 +1,9 @@
-# Unshared Task for 3rd Workshop on Argument Mining, ACL 2016, Berlin
+# Unshared Task for the 3rd Workshop on Argument Mining, ACL 2016, Berlin
 
-http://argmining2016.arg.tech/
+* This site contains supplementary data for the Unshared Task
+* See [the corresponding call for papers](call-for-papers.txt) and visit the [official workshop website](http://argmining2016.arg.tech/).
 
-See Call for paper: XXX
+## Content
 
 We provide four variants of the task across various registers. Each variant is split into three parts:
 
