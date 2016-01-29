@@ -143,7 +143,7 @@ requires.
 
 The data is available at GitHub:
 
-https://github.com/UKPLab/argumentation-mining-workshop-2016-unshared-task
+https://github.com/UKPLab/argmin2016-unshared-task
 
 It can be easily forked, checked out, or downloaded as a ZIP file.
 

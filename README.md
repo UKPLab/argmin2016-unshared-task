@@ -3,6 +3,12 @@
 * This site contains supplementary data for the Unshared Task
 * See [the corresponding call for papers](call-for-papers.txt) and visit the [official workshop website](http://argmining2016.arg.tech/).
 
+Contact person: Ivan Habernal, habernal@ukp.informatik.tu-darmstadt.de
+
+http://www.ukp.tu-darmstadt.de/
+
+http://www.tu-darmstadt.de/
+
 ## Content
 
 We provide four variants of the task across various registers. Each variant is split into three parts:
