@@ -1,7 +1,4 @@
-3rd Workshop on Argument Mining at ACL 2016, Berlin
-
-Unshared Task: Call for Papers
-
+Call for Papers: Unshared Task at ACL 2016 Workshop on Argument Mining
 
 Introduction
 ============
